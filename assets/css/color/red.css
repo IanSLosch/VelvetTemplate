@@ -1,0 +1,57 @@
+/*------------------------------
+ * Copyright 2014 Pixelized
+ * http://www.pixelized.cz
+ *
+ * Velvet theme v1.0
+------------------------------*/
+
+/*------------------------------
+	RED
+------------------------------*/
+a,
+.separator-quote i,
+.separator-testimonials .item p.name,
+.navbar.navbar-default.navbar-offset .navbar-brand i,
+.navbar-default.navbar-offset .navbar-nav > li > a:hover,
+.navbar-default.navbar-offset .navbar-nav > li > a:focus,
+.intro-wrapper .intro-headline h1,
+.process-nav-wrapper ul.process-nav li.active a,
+.process-content-wrapper .process-content h3,
+.service-item:hover h3,
+.about-us-wrapper h3 span,
+.about-us-wrapper ul li i,
+.pricing-item p span,
+footer.navbar.navbar-default h3 {
+	color:#AE2E01;
+}
+
+.btn-primary,
+.separator-numbers,
+.separator-testimonials .owl-theme .owl-controls .owl-page.active span,
+#process-step-1 ul li:before,
+#process-step-2 i,
+.about-us-wrapper .progress-bar,
+.portfolio-item article .portfolio-body .portfolio-mask {
+	background-color:#AE2E01;
+}
+
+/*------------------------------
+	EXTRA SMALL DEVICES
+------------------------------*/
+@media (max-width:767px) {	
+	.navbar-default .navbar-toggle {
+		border-color:#AE2E01;
+		color:#AE2E01;
+	}
+	
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+		background-color:#AE2E01;
+	}
+}
+
+@media (max-width:480px) {
+	#process-step-2 .process-feature-body:before {
+		background-color:#AE2E01;
+	}
+}

@@ -1,0 +1,81 @@
+/*------------------------------
+ * Copyright 2014 Pixelized
+ * http://www.pixelized.cz
+ *
+ * Velvet theme v1.0
+------------------------------*/
+
+/*------------------------------
+	MAIN
+------------------------------*/
+
+a {
+	color:#AE2E01;
+}
+
+header.navbar.navbar-default {
+	background-color:#FAFAFA;
+	box-shadow:0 1px 1px 0 rgba(0,0,0,0.1);
+	height:auto;
+}
+
+header.navbar.navbar-default .navbar-header {
+	text-align:center;
+	float:none;
+}
+
+header.navbar.navbar-default .navbar-header h1 {
+	color:#888888;
+	font-size:42px;
+}
+
+header.navbar.navbar-default .navbar-header h1 i {
+	margin-right:15px;
+}
+
+header.navbar.navbar-default .navbar-header p {
+	color:#aaa;
+	font-size:22px;
+	text-transform:uppercase;
+	font-weight:600;
+}
+
+.pages-wrapper {
+	text-align:center;
+}
+
+.pages-wrapper img {
+	margin-top:100px;
+	padding:0 50px;
+}
+
+.pages-wrapper h2 {
+	color:#999;
+	font-size:24px;
+	font-weight:500;
+}
+
+footer.navbar.navbar-default {
+	padding: 20px 0 0;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+footer.navbar.navbar-default .copyright {
+	margin: 0 0 20px;
+	padding-top: 0;
+	border-top:0;
+}
+
+@media (max-width:767px) {
+	.pages-wrapper img {
+		margin-top:50px;
+		padding:0;
+	}
+	
+	footer.navbar.navbar-default {
+		position:static;
+		margin-top:50px;
+	}
+}
